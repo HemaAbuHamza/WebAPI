@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="08db88ab4626403e8b79d6c436aa019d" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="ClaimyWebServies_dbModel.tbl_ClaimHistory" Width="1.5" PointX="10.5" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClaimyWebServies_dbModel.tbl_Claims" Width="1.5" PointX="5.25" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClaimyWebServies_dbModel.tbl_Countries" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClaimyWebServies_dbModel.tbl_Images" Width="1.5" PointX="7.5" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClaimyWebServies_dbModel.tbl_LoginType" Width="1.5" PointX="0.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClaimyWebServies_dbModel.tbl_ParkingCompanies" Width="1.5" PointX="8.25" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClaimyWebServies_dbModel.tbl_ParkingReasons" Width="1.5" PointX="3" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClaimyWebServies_dbModel.tbl_Status" Width="1.5" PointX="8.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClaimyWebServies_dbModel.tbl_Users" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClaimyWebServies_dbModel.tbl_ZipCodes" Width="1.5" PointX="3" PointY="19.375" IsExpanded="true" />
+        <AssociationConnector Association="ClaimyWebServies_dbModel.FK__tbl_Claim__fld_C__44CA3770" ManuallyRouted="false" />
+        <AssociationConnector Association="ClaimyWebServies_dbModel.FK__tbl_Claim__fld_S__46B27FE2" ManuallyRouted="false" />
+        <AssociationConnector Association="ClaimyWebServies_dbModel.FK__tbl_Claim__fld_U__45BE5BA9" ManuallyRouted="false" />
+        <AssociationConnector Association="ClaimyWebServies_dbModel.FK__tbl_Claim__fld_C__3A4CA8FD" ManuallyRouted="false" />
+        <AssociationConnector Association="ClaimyWebServies_dbModel.FK__tbl_Claim__fld_P__3B40CD36" ManuallyRouted="false" />
+        <AssociationConnector Association="ClaimyWebServies_dbModel.FK__tbl_Claim__fld_R__3C34F16F" ManuallyRouted="false" />
+        <AssociationConnector Association="ClaimyWebServies_dbModel.FK__tbl_Claim__fld_U__395884C4" ManuallyRouted="false" />
+        <AssociationConnector Association="ClaimyWebServies_dbModel.FK__tbl_Claim__fld_Z__3D2915A8" ManuallyRouted="false" />
+        <AssociationConnector Association="ClaimyWebServies_dbModel.FK__tbl_Image__fld_C__40058253" ManuallyRouted="false" />
+        <AssociationConnector Association="ClaimyWebServies_dbModel.FK__tbl_Parki__fld_C__2DE6D218" ManuallyRouted="false" />
+        <AssociationConnector Association="ClaimyWebServies_dbModel.FK__tbl_Parki__fld_C__30C33EC3" ManuallyRouted="false" />
+        <AssociationConnector Association="ClaimyWebServies_dbModel.FK__tbl_ZipCo__fld_C__2B0A656D" ManuallyRouted="false" />
+        <AssociationConnector Association="ClaimyWebServies_dbModel.FK__tbl_Users__fld_T__367C1819" ManuallyRouted="false" />
+        <AssociationConnector Association="ClaimyWebServies_dbModel.FK__tbl_Parki__fld_Z__31B762FC" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

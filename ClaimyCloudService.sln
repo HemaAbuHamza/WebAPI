@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "ClaimyCloudService", "ClaimyCloudService\ClaimyCloudService.ccproj", "{D6E848DC-C7F8-4F6B-BBB7-3C49034CACC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimyWebServies", "ClaimyWebServies\ClaimyWebServies.csproj", "{3600BFD6-548B-4B23-B2E1-2849EE3A5F21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6E848DC-C7F8-4F6B-BBB7-3C49034CACC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E848DC-C7F8-4F6B-BBB7-3C49034CACC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E848DC-C7F8-4F6B-BBB7-3C49034CACC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E848DC-C7F8-4F6B-BBB7-3C49034CACC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3600BFD6-548B-4B23-B2E1-2849EE3A5F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3600BFD6-548B-4B23-B2E1-2849EE3A5F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3600BFD6-548B-4B23-B2E1-2849EE3A5F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3600BFD6-548B-4B23-B2E1-2849EE3A5F21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {630E8DF7-DF84-47F1-A053-1CC2748FD611}
+	EndGlobalSection
+EndGlobal

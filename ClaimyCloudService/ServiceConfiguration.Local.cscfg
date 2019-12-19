@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="ClaimyCloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="6" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="ClaimyWebServies">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="claimy" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEEnUr1MHVbKFTUwvgBT/F0kwDQYJKoZIhvcNAQEBBQAEggEAY5x0AnPOx2kdbZ0E38nvFdjiN70AH5thKQ2zJMoU6XGgHVPDEW9YdXpFaEtqhKVSWybZ6BcQul0dPZppoDHk3CaaV5jYv3Oyk8cylv0SBvVFSQ/QD0PrbmzTCPt7nuQqMrMnoVRp7TmsW3V386QX8OBQO8SkjVn7gQtBYfLYQHuS893o27Se9t18XaxXrKv5Cm2HvHuSh93BMwiW9g8wqOz5glvOYvcQi5eQK3Cyp8bcJdo0M2VRzv0FmfqkSevWxeIbxY/UQERIZalX+qglPAT5xT1iNMjNC37nwv79JcyqoXq8FUm0HEJeTDTsCt63S+cRWWyAkyl0UOZzaumaZTAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECHxOfFwZtXDmgBA0/0IjA2vc9kynDZCkQoM1" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2021-01-20T23:59:59.0000000+01:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="f54123fb-76f2-4aae-bd6d-e145c1422b43" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="0A18F4DAB90634196CFD586ACBBC6E8141861192" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>
